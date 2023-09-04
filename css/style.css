@@ -1,0 +1,78 @@
+.body {
+    font-family: Tahoma, sans-serif;
+    font-size: 15px;
+    color: #121212;
+    
+    background-color: #f2f2f2;
+}
+
+.form {
+    width: 358px;
+    height: 358px;
+    margin-top: 20px;
+    padding: 20px;
+    
+    
+    background-color: #fff;
+    
+    bordr: 1px solid #d0d0d0;
+}
+fieldset {
+    margin: 20px;
+    border: 0;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1784bc;
+}
+
+.radio_group {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    display: block;
+    margin-bottom: 20px;
+    
+    background-color: #fff;
+    color: #121212;
+    font-family: Tahoma, sans-serif;
+}
+
+.form-input {
+    padding: 5px;
+    border: 1px solid #d0d0d0;
+    color: #121212;
+}
+
+.form-textarea {
+    height: 100px;
+}
+
+.btn_save {
+    padding: 10px;
+    border: 0;
+    
+    background-color: #97c89a;
+    color: #fff;
+}
+
+.btn_reset {
+    background-color: #acacac;
+    color: #fff;
+    
+    border: 0;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+

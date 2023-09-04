@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Первая Форма</title>
+</head>
+
+<body>
+    <div class="form">
+        <h1 class="title">Личные Данные</h1>
+        <form action="/" method="post">
+
+            <div class="radio_group">
+                <label for="male">Муж</label>
+                <input type="radio" name="choose_sex" id="male">
+                <label for="female">Жен</label>
+                <input type="radio" name="choose_sex" id="female">
+            </div>
+
+            <div class="form-group">
+                <label for="input_name"></label>
+                <input class="form-input" type="text" name="name" id="input_name" placeholder="Ваше имя">
+            </div>
+
+            <div class="form-group">
+                <label for="input_email"></label>
+                <input class="form-input" type="email" name="name" id="input_email" placeholder="Ваш емэйл">
+            </div>
+
+            <div class="form-group">
+                <label for="input_tel"></label>
+                <input class="form-input" type="text" name="tel" id="input_tel" placeholder="Ваш номер телефона">
+            </div>
+
+            <div class="form-group">
+                <label for="input_address"></label>
+                <input class="form-input" type="text" name="address" id="input_address" placeholder="Ваш адрес проживания">
+            </div>
+
+            <div class="form-group">
+                <label for="input_about"></label>
+                <textarea class="form-textarea" name="text" id="input_about" placeholder="Информация о вас"></textarea>
+            </div>
+
+            <h1 class="title">Безопасность</h1>
+            <div class="form-group">
+                <label for="input_password"></label>
+                <input class="form-input" type="password" name="name" id="input_password" placeholder="Старый пароль">
+            </div>
+
+            <div class="form-group">
+                <label for="input_password"></label>
+                <input class="form-input" type="password" name="name" id="input_password" placeholder="Новый пароль">
+            </div>
+
+            <div class="form-group">
+                <label for="input_password"></label>
+                <input class="form-input" type="password" name="name" id="input_password" placeholder="Новый пароль еще раз">
+            </div>
+
+            <div class="form-group">
+                <select name="question" placeholder="Секретный вопрос">
+                    <option>Любимая Еда</option>
+                    <option>Имя первого питомца</option>
+                    <option>Кто первый полетел в космос</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="input_answer"></label>
+                <input class="form-input" type="text" name="name" id="input_answer" placeholder="Ответ на секретный вопрос">
+            </div>
+            <h1 class="title">Оповещения</h1>
+            <div class="form-group">
+                <input type="checkbox" name="rules_agree" id="news_email">
+                <label for="news_email">Получать новости на e-mail</label>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" name="info_discount" id="info_discount">
+                <label for="info_discount">Получать информацию о скидках</label>
+            </div>
+            <button class="btn_save" type="submit">Сохранить</button>
+            <button class="btn_reset" type="reset">Отменить и очистить</button>
+         </form>
+    </div>
+
+
+</body>
+
+</html>
